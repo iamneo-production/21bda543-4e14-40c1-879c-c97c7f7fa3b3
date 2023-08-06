@@ -1,0 +1,15 @@
+/home/coder/project/workspace/RecommendationService/src/main/java/com/recommendate/service/RusultRecommendateService.java
+/home/coder/project/workspace/RecommendationService/src/main/java/com/recommendate/externalservices/PatientService.java
+/home/coder/project/workspace/RecommendationService/src/main/java/com/recommendate/modal/repository/RusultRecommendateRepo.java
+/home/coder/project/workspace/RecommendationService/src/main/java/com/recommendate/exception/ResourceNotFoundException.java
+/home/coder/project/workspace/RecommendationService/src/main/java/com/recommendate/modal/RusultRecommendate.java
+/home/coder/project/workspace/RecommendationService/src/main/java/com/recommendate/modal/HealthRecord.java
+/home/coder/project/workspace/RecommendationService/src/main/java/com/recommendate/exception/ErrorHandling.java
+/home/coder/project/workspace/RecommendationService/src/main/java/com/recommendate/service/impl/RusultRecommendateServiceImpl.java
+/home/coder/project/workspace/RecommendationService/src/main/java/com/recommendate/modal/Contents.java
+/home/coder/project/workspace/RecommendationService/src/main/java/com/recommendate/controller/RecommendationController.java
+/home/coder/project/workspace/RecommendationService/src/main/java/com/recommendate/exception/MyCustomExceptions.java
+/home/coder/project/workspace/RecommendationService/src/main/java/com/recommendate/modal/HealthRecordDto.java
+/home/coder/project/workspace/RecommendationService/src/main/java/com/recommendate/modal/PatientDto.java
+/home/coder/project/workspace/RecommendationService/src/main/java/com/recommendate/RecommendationServiceApplication.java
+/home/coder/project/workspace/RecommendationService/src/main/java/com/recommendate/externalservices/ContentService.java

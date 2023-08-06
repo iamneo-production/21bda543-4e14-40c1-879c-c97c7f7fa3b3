@@ -1,0 +1,7 @@
+com/dcotor/model/RusultRecommendate.class
+com/dcotor/model/PatientDto.class
+com/dcotor/externalService/PatientService.class
+com/dcotor/model/HealthRecordDto.class
+com/dcotor/externalService/RecommendationService.class
+com/dcotor/controller/DoctorController.class
+com/dcotor/DoctorserviceApplication.class

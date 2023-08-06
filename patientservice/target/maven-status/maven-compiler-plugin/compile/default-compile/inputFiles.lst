@@ -1,0 +1,13 @@
+/home/coder/project/workspace/patientservice/src/main/java/com/patient/model/Patient.java
+/home/coder/project/workspace/patientservice/src/main/java/com/patient/service/PatientService.java
+/home/coder/project/workspace/patientservice/src/main/java/com/patient/repository/HealthRepository.java
+/home/coder/project/workspace/patientservice/src/main/java/com/patient/PatientserviceApplication.java
+/home/coder/project/workspace/patientservice/src/main/java/com/patient/model/RusultRecommendate.java
+/home/coder/project/workspace/patientservice/src/main/java/com/patient/exception/MyCustomExceptions.java
+/home/coder/project/workspace/patientservice/src/main/java/com/patient/externalController/NotificationService.java
+/home/coder/project/workspace/patientservice/src/main/java/com/patient/model/HealthRecord.java
+/home/coder/project/workspace/patientservice/src/main/java/com/patient/service/impl/PatientServiceImpl.java
+/home/coder/project/workspace/patientservice/src/main/java/com/patient/repository/PatientReposioty.java
+/home/coder/project/workspace/patientservice/src/main/java/com/patient/controller/PatientController.java
+/home/coder/project/workspace/patientservice/src/main/java/com/patient/exception/ResourceNotFoundException.java
+/home/coder/project/workspace/patientservice/src/main/java/com/patient/exception/ErrorHandling.java

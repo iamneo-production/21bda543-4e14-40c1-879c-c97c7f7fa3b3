@@ -1,0 +1,15 @@
+com/recommendate/exception/ResourceNotFoundException.class
+com/recommendate/modal/HealthRecordDto.class
+com/recommendate/externalservices/ContentService.class
+com/recommendate/modal/Contents.class
+com/recommendate/modal/repository/RusultRecommendateRepo.class
+com/recommendate/controller/RecommendationController.class
+com/recommendate/modal/RusultRecommendate.class
+com/recommendate/service/impl/RusultRecommendateServiceImpl.class
+com/recommendate/modal/HealthRecord.class
+com/recommendate/service/RusultRecommendateService.class
+com/recommendate/modal/PatientDto.class
+com/recommendate/exception/ErrorHandling.class
+com/recommendate/exception/MyCustomExceptions.class
+com/recommendate/RecommendationServiceApplication.class
+com/recommendate/externalservices/PatientService.class
