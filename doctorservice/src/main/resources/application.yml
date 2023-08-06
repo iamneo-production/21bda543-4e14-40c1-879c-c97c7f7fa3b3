@@ -1,9 +1,9 @@
 server:
-  port: 8082
+  port: 8083
   
 spring:
   application:
-    name: PATIENT-SERVICE
+    name: DCOTOR-SERVICE
   datasource:
     username: root
     password: examly
@@ -21,3 +21,4 @@ eureka:
 
   instance:
     prefer-ip-address: true
+

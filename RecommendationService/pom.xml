@@ -8,11 +8,11 @@
 		<version>3.1.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.patient</groupId>
-	<artifactId>patientservice</artifactId>
+	<groupId>com.recommendation</groupId>
+	<artifactId>RecommendationService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>patientservice</name>
-	<description>patient</description>
+	<name>RecommendationService</name>
+	<description>recommendation</description>
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2022.0.4</spring-cloud.version>

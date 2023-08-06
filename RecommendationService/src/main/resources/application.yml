@@ -1,9 +1,9 @@
 server:
-  port: 8082
+  port: 8084
   
 spring:
   application:
-    name: PATIENT-SERVICE
+    name: RECOMMENDATION-SERVICE
   datasource:
     username: root
     password: examly
@@ -11,6 +11,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+    
 
 eureka:
   client:
@@ -21,3 +22,6 @@ eureka:
 
   instance:
     prefer-ip-address: true
+    
+
+
