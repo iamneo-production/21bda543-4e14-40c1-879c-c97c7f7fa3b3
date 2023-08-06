@@ -1,0 +1,48 @@
+server:
+  port: 8087
+  
+spring:
+  application:
+    name: API-GATEWAY
+    
+  cloud:
+    gateway:
+      routes:
+      - id: PATIENT-SERVICE
+        uri: lb://PATIENT-SERVICE
+        predicates:
+        - Path=/patient/**
+        
+      - id: DCOTOR-SERVICE
+        uri: lb://DCOTOR-SERVICE
+        predicates:
+        - Path=/api/doctors/**
+        
+      - id: CONTENT-SERVICE
+        uri: lb://CONTENT-SERVICE
+        predicates:
+        - Path=/api/content/**
+        
+      - id: RECOMMENDATION-SERVICE
+        uri: lb://RECOMMENDATION-SERVICE
+        predicates:
+        - Path=/api/recommendations/**
+        
+      - id: NOTIFCATION-SERVICE
+        uri: lb://NOTIFCATION-SERVICE
+        predicates:
+        - Path=/api/notifications/**
+       
+    
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8080/eureka
+
+  instance:
+    prefer-ip-address: true
+    
+
+
