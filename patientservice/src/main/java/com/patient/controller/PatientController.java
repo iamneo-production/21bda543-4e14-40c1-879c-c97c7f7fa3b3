@@ -13,10 +13,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.patient.externalController.NotificationService;
+import com.patient.model.CircuitDemo;
 import com.patient.model.HealthRecord;
 import com.patient.model.Patient;
 import com.patient.model.RusultRecommendate;
 import com.patient.service.PatientService;
+
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 
 @RestController
 @RequestMapping("/patient")
@@ -50,6 +53,7 @@ public class PatientController {
 	}
 
 	@GetMapping("/notification/{id}")
+	@CircuitBreaker(name = "ratingHotelBreaker", fallbackMethod = "patientFallback")
 	public ResponseEntity<RusultRecommendate> getRecommendationByPatientId(@PathVariable Long id) {
 		RusultRecommendate recommendation = notificationService.getRecommendationByPatientId(id);
 		if (recommendation != null) {
@@ -59,5 +63,11 @@ public class PatientController {
 		}
 	}
 
+	public ResponseEntity<CircuitDemo> patientFallback(Long id, Exception ex) {
+
+		CircuitDemo circuitDemo = CircuitDemo.builder().issue("Notification servervice error").id("1").build();
+
+		return new ResponseEntity<>(circuitDemo, HttpStatus.OK);
+	}
 
 }
